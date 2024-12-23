@@ -8,7 +8,7 @@
 | Mira Juwita Ali          | G1A021056 |
 
 # Deskripsi Proyek
-Proyek ini bertujuan untuk membangun model peringkasan teks otomatis menggunakan arsitektur Encoder-Decoder yang dilengkapi dengan mekanisme Attention LSTM dan GRU. Model ini dirancang untuk meringkas ulasan yang terdapat pada situs Universitas Bengkulu, memberikan ringkasan yang lebih singkat dan informatif dari ulasan lengkap.
+Proyek ini bertujuan untuk membangun model peringkasan teks otomatis menggunakan arsitektur Encoder-Decoder yang dilengkapi dengan mekanisme Attention LSTM. Model ini dirancang untuk meringkas ulasan yang terdapat pada situs Universitas Bengkulu, memberikan ringkasan yang lebih singkat dan informatif dari ulasan lengkap.
 
 # Dataset
 Dataset yang digunakan berisi 200 sampel ulasan dari situs Universitas Bengkulu (unib.ac.id). Dataset terdiri dari:  
