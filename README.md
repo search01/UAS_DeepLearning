@@ -65,6 +65,8 @@ Setelah melatih model, didapatkan hasil dari epoch pelatihan terakhir
 Model menunjukkan kinerja yang cukup baik dengan akurasi 76.61%. Namun model dapat ditingkatkan akurasi dengan menambahkan ukuran dataset.  
 ![Testing](https://github.com/user-attachments/assets/ef12559e-47e4-4849-9ca2-bc2ed4e61395)
 
+# Analisa Model Deep Learning
+Model yang dibuat merupakan model deep learning karena menggunakan arsitektur **Encoder-Decoder** dengan **LSTM** dan **Attention**, yang melibatkan banyak lapisan tersembunyi untuk memproses data. Deep learning mempelajari representasi data yang kompleks dan menangkap hubungan jangka panjang dalam data sekuensial (seperti teks). Selain itu, mekanisme **Attention** memungkinkan model untuk fokus pada bagian informasi yang paling relevan, suatu kemampuan yang tidak dimiliki oleh model shallow learning yang lebih sederhana. Berbeda dengan shallow learning yang cenderung lebih sederhana dengan model yang memiliki sedikit atau hanya satu lapisan untuk pemrosesan data.
 
 
 
