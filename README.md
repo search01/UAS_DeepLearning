@@ -58,11 +58,9 @@ Setelah melatih model, didapatkan hasil dari epoch pelatihan terakhir
 ![Loss](https://github.com/user-attachments/assets/60eabc25-2223-44be-9480-6eda2a51a3fb)
 
 # Kesimpulan
-**Accuracy (0.7661):**
-Akurasi menunjukkan bahwa model telah belajar dengan cukup baik untuk mengenali pola dalam data dan dapat digunakan untuk test summarization pada model yang baru dilatih dengan dataset yang terbatas (200 sampel)
++ **Accuracy (0.7661):** Akurasi menunjukkan bahwa model telah belajar dengan cukup baik untuk mengenali pola dalam data dan dapat digunakan untuk test summarization pada model yang baru dilatih   dengan dataset yang terbatas (200 sampel)
 
-**Loss (1.3172):**
-Nilai loss sebesar 1.3172 menunjukkan bahwa model masih memiliki kesalahan dalam memprediksi output yang dapat disebabkan oleh ukuran dataset yang kecil (200 sampel).
++ **Loss (1.3172):** Nilai loss sebesar 1.3172 menunjukkan bahwa model masih memiliki kesalahan dalam memprediksi output yang dapat disebabkan oleh ukuran dataset yang kecil (200 sampel).
 
 Model menunjukkan kinerja yang cukup baik dengan akurasi 76.61%. Namun model dapat ditingkatkan akurasi dengan menambahkan ukuran dataset.  
 ![Testing](https://github.com/user-attachments/assets/ef12559e-47e4-4849-9ca2-bc2ed4e61395)
