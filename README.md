@@ -11,7 +11,7 @@
 Proyek ini bertujuan untuk membangun model peringkasan teks otomatis menggunakan arsitektur Encoder-Decoder yang dilengkapi dengan mekanisme Attention LSTM. Model ini dirancang untuk meringkas ulasan yang terdapat pada situs Universitas Bengkulu, memberikan ringkasan yang lebih singkat dan informatif dari ulasan lengkap.
 
 # Dataset
-Dataset yang digunakan berisi 200 sampel ulasan dari situs Universitas Bengkulu (unib.ac.id). Dataset terdiri dari:  
+Dataset yang digunakan berisi 219 sampel ulasan dari situs Universitas Bengkulu (unib.ac.id). Dataset terdiri dari:  
 + **text**     : Ulasan dari situs.  
 + **summary**  : Ringkasan ulasan.  
 ![Data Load](https://github.com/user-attachments/assets/df4416ca-7cd3-42d1-a4b9-4903173bbcc7)
@@ -60,7 +60,7 @@ Setelah melatih model, didapatkan hasil dari epoch pelatihan terakhir
 # Kesimpulan
 + **Accuracy (0.7661):** Akurasi menunjukkan bahwa model telah belajar dengan cukup baik untuk mengenali pola dalam data dan dapat digunakan untuk test summarization pada model yang baru dilatih   dengan dataset yang terbatas (200 sampel)
 
-+ **Loss (1.3172):** Nilai loss sebesar 1.3172 menunjukkan bahwa model masih memiliki kesalahan dalam memprediksi output yang dapat disebabkan oleh ukuran dataset yang kecil (200 sampel).
++ **Loss (1.3172):** Nilai loss sebesar 1.3172 menunjukkan bahwa model masih memiliki kesalahan dalam memprediksi output yang dapat disebabkan oleh ukuran dataset yang kecil (219 sampel).
 
 Model menunjukkan kinerja yang cukup baik dengan akurasi 76.61%. Namun model dapat ditingkatkan akurasi dengan menambahkan ukuran dataset.  
 ![Testing](https://github.com/user-attachments/assets/ef12559e-47e4-4849-9ca2-bc2ed4e61395)
